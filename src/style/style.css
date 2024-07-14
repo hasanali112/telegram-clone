@@ -1,0 +1,17 @@
+#main-layout {
+  background-image: url("../assets/bg2.png");
+}
+
+#message {
+  position: relative;
+  border-top-left-radius: 0px;
+}
+
+#message::before {
+  content: "";
+  top: 0;
+  position: absolute;
+  left: -10px;
+  border: 10px solid transparent;
+  border-top: 10px solid #212121;
+}
